@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.shaadidukaan.com/editor-img/image/others/kisses-hug-pics/Forehead-Kiss.jpg");
+  background-size: cautoover;
+  background-position: center;
+  animation: fadeInBg 1.5s ease-in-out;
+}
+
+@keyframes fadeInBg {
+  0% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.459);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  width: 350px;
+  animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+  animation: fadeIn 2s ease-in;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  box-shadow: 0 0 5px #4CAF50;
+  outline: none;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}

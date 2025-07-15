@@ -688,7 +688,7 @@ background-color: transparent; /* Makes the background invisible */
 @media (max-width:450px){
 
    html{
-       font-size: 50%;
+       font-size: 49.5%;
    }
 }
 
